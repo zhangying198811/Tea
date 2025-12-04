@@ -1,0 +1,7 @@
+{
+  "name": "Spirit Tea (灵叶)",
+  "description": "An AI-powered Tea Master application combining computer vision, TCM knowledge, and tea culture. Features tea identification, tongue-diagnosis based health analysis, and an interactive tea encyclopedia.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

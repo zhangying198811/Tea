@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spirit Tea - AI Tea Master</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Noto+Sans+SC:wght@400;500&display=swap');
+      
+      body {
+        font-family: 'Noto Sans SC', sans-serif;
+        background-color: #fcfbf7; /* Rice paper color */
+        color: #44403c;
+      }
+      h1, h2, h3, h4, h5, h6, .font-serif {
+        font-family: 'Noto Serif SC', serif;
+      }
+      /* Custom scrollbar for tea aesthetics */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f5f5f4; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #a8a29e; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #78716c; 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
